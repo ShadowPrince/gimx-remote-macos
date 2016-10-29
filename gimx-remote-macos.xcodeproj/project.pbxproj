@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3833B211DC3DF5300D83E8B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3833B201DC3DF5300D83E8B /* main.swift */; };
+		F3833B2A1DC3E2D300D83E8B /* udp.c in Sources */ = {isa = PBXBuildFile; fileRef = F3833B281DC3E2D300D83E8B /* udp.c */; };
+		F3833B321DC4BB7F00D83E8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3833B311DC4BB7F00D83E8B /* AppDelegate.swift */; };
+		F3833B341DC4BB7F00D83E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3833B331DC4BB7F00D83E8B /* Assets.xcassets */; };
+		F3833B371DC4BB7F00D83E8B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3833B351DC4BB7F00D83E8B /* MainMenu.xib */; };
+		F3833B401DC4BF6200D83E8B /* GimxRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3833B3F1DC4BF6200D83E8B /* GimxRemote.swift */; };
+		F3833B411DC4C49900D83E8B /* udp.c in Sources */ = {isa = PBXBuildFile; fileRef = F3833B281DC3E2D300D83E8B /* udp.c */; };
+		F3833B421DC4C6E200D83E8B /* GimxRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3833B3F1DC4BF6200D83E8B /* GimxRemote.swift */; };
+		F3833B441DC4CED800D83E8B /* Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3833B431DC4CED800D83E8B /* Mapping.swift */; };
+		F3833B481DC4DC7A00D83E8B /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3833B461DC4DC5600D83E8B /* AEXML.framework */; };
+		F3833B4B1DC4DDD700D83E8B /* AEXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F3833B491DC4DDD700D83E8B /* AEXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3833B1B1DC3DF5300D83E8B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F3833B4C1DC4DDD700D83E8B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F3833B4B1DC4DDD700D83E8B /* AEXML.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F3833B1D1DC3DF5300D83E8B /* gimx-remote-macos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "gimx-remote-macos"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3833B201DC3DF5300D83E8B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F3833B271DC3E2D300D83E8B /* gimx-remote-macos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gimx-remote-macos-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3833B281DC3E2D300D83E8B /* udp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = udp.c; sourceTree = "<group>"; };
+		F3833B291DC3E2D300D83E8B /* udp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udp.h; sourceTree = "<group>"; };
+		F3833B2F1DC4BB7F00D83E8B /* gimx-remote-gui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gimx-remote-gui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3833B311DC4BB7F00D83E8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3833B331DC4BB7F00D83E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3833B361DC4BB7F00D83E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F3833B381DC4BB7F00D83E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3833B3F1DC4BF6200D83E8B /* GimxRemote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GimxRemote.swift; sourceTree = "<group>"; };
+		F3833B431DC4CED800D83E8B /* Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapping.swift; sourceTree = "<group>"; };
+		F3833B461DC4DC5600D83E8B /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/Mac/AEXML.framework; sourceTree = "<group>"; };
+		F3833B491DC4DDD700D83E8B /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AEXML.framework; path = Carthage/Build/Mac/AEXML.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3833B1A1DC3DF5300D83E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3833B2C1DC4BB7F00D83E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3833B481DC4DC7A00D83E8B /* AEXML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3833B141DC3DF5300D83E8B = {
+			isa = PBXGroup;
+			children = (
+				F3833B491DC4DDD700D83E8B /* AEXML.framework */,
+				F3833B3E1DC4BF4B00D83E8B /* Lib */,
+				F3833B1F1DC3DF5300D83E8B /* gimx-remote-macos */,
+				F3833B301DC4BB7F00D83E8B /* gimx-remote-gui */,
+				F3833B1E1DC3DF5300D83E8B /* Products */,
+				F3833B451DC4DC5600D83E8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3833B1E1DC3DF5300D83E8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3833B1D1DC3DF5300D83E8B /* gimx-remote-macos */,
+				F3833B2F1DC4BB7F00D83E8B /* gimx-remote-gui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3833B1F1DC3DF5300D83E8B /* gimx-remote-macos */ = {
+			isa = PBXGroup;
+			children = (
+				F3833B201DC3DF5300D83E8B /* main.swift */,
+			);
+			path = "gimx-remote-macos";
+			sourceTree = "<group>";
+		};
+		F3833B301DC4BB7F00D83E8B /* gimx-remote-gui */ = {
+			isa = PBXGroup;
+			children = (
+				F3833B311DC4BB7F00D83E8B /* AppDelegate.swift */,
+				F3833B431DC4CED800D83E8B /* Mapping.swift */,
+				F3833B331DC4BB7F00D83E8B /* Assets.xcassets */,
+				F3833B351DC4BB7F00D83E8B /* MainMenu.xib */,
+				F3833B381DC4BB7F00D83E8B /* Info.plist */,
+			);
+			path = "gimx-remote-gui";
+			sourceTree = "<group>";
+		};
+		F3833B3E1DC4BF4B00D83E8B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F3833B271DC3E2D300D83E8B /* gimx-remote-macos-Bridging-Header.h */,
+				F3833B281DC3E2D300D83E8B /* udp.c */,
+				F3833B291DC3E2D300D83E8B /* udp.h */,
+				F3833B3F1DC4BF6200D83E8B /* GimxRemote.swift */,
+			);
+			name = Lib;
+			path = "gimx-remote-macos";
+			sourceTree = "<group>";
+		};
+		F3833B451DC4DC5600D83E8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3833B461DC4DC5600D83E8B /* AEXML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3833B1C1DC3DF5300D83E8B /* gimx-remote-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3833B241DC3DF5300D83E8B /* Build configuration list for PBXNativeTarget "gimx-remote-macos" */;
+			buildPhases = (
+				F3833B191DC3DF5300D83E8B /* Sources */,
+				F3833B1A1DC3DF5300D83E8B /* Frameworks */,
+				F3833B1B1DC3DF5300D83E8B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gimx-remote-macos";
+			productName = "gimx-remote-macos";
+			productReference = F3833B1D1DC3DF5300D83E8B /* gimx-remote-macos */;
+			productType = "com.apple.product-type.tool";
+		};
+		F3833B2E1DC4BB7F00D83E8B /* gimx-remote-gui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3833B391DC4BB7F00D83E8B /* Build configuration list for PBXNativeTarget "gimx-remote-gui" */;
+			buildPhases = (
+				F3833B2B1DC4BB7F00D83E8B /* Sources */,
+				F3833B2C1DC4BB7F00D83E8B /* Frameworks */,
+				F3833B2D1DC4BB7F00D83E8B /* Resources */,
+				F3833B4C1DC4DDD700D83E8B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gimx-remote-gui";
+			productName = "gimx-remote-gui";
+			productReference = F3833B2F1DC4BB7F00D83E8B /* gimx-remote-gui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3833B151DC3DF5300D83E8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = shdwprince;
+				TargetAttributes = {
+					F3833B1C1DC3DF5300D83E8B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T7SD4W2ENW;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					F3833B2E1DC4BB7F00D83E8B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T7SD4W2ENW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3833B181DC3DF5300D83E8B /* Build configuration list for PBXProject "gimx-remote-macos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3833B141DC3DF5300D83E8B;
+			productRefGroup = F3833B1E1DC3DF5300D83E8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3833B1C1DC3DF5300D83E8B /* gimx-remote-macos */,
+				F3833B2E1DC4BB7F00D83E8B /* gimx-remote-gui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3833B2D1DC4BB7F00D83E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3833B341DC4BB7F00D83E8B /* Assets.xcassets in Resources */,
+				F3833B371DC4BB7F00D83E8B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3833B191DC3DF5300D83E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3833B421DC4C6E200D83E8B /* GimxRemote.swift in Sources */,
+				F3833B211DC3DF5300D83E8B /* main.swift in Sources */,
+				F3833B2A1DC3E2D300D83E8B /* udp.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3833B2B1DC4BB7F00D83E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3833B441DC4CED800D83E8B /* Mapping.swift in Sources */,
+				F3833B411DC4C49900D83E8B /* udp.c in Sources */,
+				F3833B401DC4BF6200D83E8B /* GimxRemote.swift in Sources */,
+				F3833B321DC4BB7F00D83E8B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3833B351DC4BB7F00D83E8B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3833B361DC4BB7F00D83E8B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3833B221DC3DF5300D83E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3833B231DC3DF5300D83E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F3833B251DC3DF5300D83E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = T7SD4W2ENW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "gimx-remote-macos/gimx-remote-macos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3833B261DC3DF5300D83E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = T7SD4W2ENW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "gimx-remote-macos/gimx-remote-macos-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F3833B3A1DC4BB7F00D83E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T7SD4W2ENW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "gimx-remote-gui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.shdwprince.gimx-remote-gui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "gimx-remote-macos/gimx-remote-macos-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3833B3B1DC4BB7F00D83E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T7SD4W2ENW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "gimx-remote-gui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.shdwprince.gimx-remote-gui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "gimx-remote-macos/gimx-remote-macos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3833B181DC3DF5300D83E8B /* Build configuration list for PBXProject "gimx-remote-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3833B221DC3DF5300D83E8B /* Debug */,
+				F3833B231DC3DF5300D83E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3833B241DC3DF5300D83E8B /* Build configuration list for PBXNativeTarget "gimx-remote-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3833B251DC3DF5300D83E8B /* Debug */,
+				F3833B261DC3DF5300D83E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3833B391DC4BB7F00D83E8B /* Build configuration list for PBXNativeTarget "gimx-remote-gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3833B3A1DC4BB7F00D83E8B /* Debug */,
+				F3833B3B1DC4BB7F00D83E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3833B151DC3DF5300D83E8B /* Project object */;
+}
