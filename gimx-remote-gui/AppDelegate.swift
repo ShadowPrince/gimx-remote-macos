@@ -96,7 +96,7 @@ class KeyView: NSView {
 
     var lastModifierFlags = NSEventModifierFlags.init(rawValue: 256)
     override func flagsChanged(with event: NSEvent) {
-        for code in [NSEventModifierFlags.control, NSEventModifierFlags.shift, ] {
+        for code in [NSEventModifierFlags.control, NSEventModifierFlags.shift, NSEventModifierFlags.capsLock, ] {
             var state: AxleState?
 
             if lastModifierFlags.contains(code) && !event.modifierFlags.contains(code) {

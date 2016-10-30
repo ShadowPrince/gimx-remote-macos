@@ -70,6 +70,8 @@ let KeyIdentifierNotFound = ""
             return "LSHIFT"
         case NSEventModifierFlags.control.rawValue:
             return "CONTROL"
+        case NSEventModifierFlags.capsLock.rawValue:
+            return "CAPSLOCK"
 
         case 48:
             return "TAB"
