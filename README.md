@@ -12,3 +12,7 @@ This is GIMX (Game Input MultipleXer, http://gimx.fr) remote client, capable of 
 1. Activate gamepad area by clicking on it
 
 If everything's done you should see your input in gamepad area. If the area is grey it means that it's not active.
+
+### Download
+
+https://github.com/ShadowPrince/gimx-remote-macos/raw/master/build/gimx-remote-gui.app.zip
